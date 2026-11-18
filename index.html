@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Обслуживание туалетных кабинок в Минске — ИП Сыч Г.Е.</title>
+<meta name="description" content="Очистка туалетных кабинок в Минске, Московский район: мойка, дезинфекция, устранение запаха, расходники, обслуживание по графику для стройплощадок, мероприятий и парков.">
+<meta property="og:title" content="Обслуживание туалетных кабинок в Минске — ИП Сыч Г.Е.">
+<meta property="og:description" content="Очистка туалетных кабинок в Минске, Московский район: мойка, дезинфекция, устранение запаха, расходники, обслуживание по графику для стройплощадок, мероприятий и парков.">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="assets/site.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23121A17'/%3E%3Ccircle cx='16' cy='13' r='6' fill='%232E9E6B'/%3E%3Crect x='9' y='22' width='14' height='4' fill='%232E9E6B'/%3E%3C/svg%3E">
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap in">
+    <a class="brand" href="index.html"><b>Сыч</b><span>обслуживание кабинок · Минск</span></a>
+    <nav class="nav" id="nav">
+      <a href="index.html" aria-current="page">Главная</a>
+      <a href="uslugi.html">Услуги</a>
+      <a href="process.html">Как проходит</a>
+      <a href="objects.html">Объекты</a>
+      <a href="about.html">О нас</a>
+      <a href="contacts.html">Контакты</a>
+    </nav>
+    <a class="head-cta" href="contacts.html#req">Оставить заявку</a>
+    <button class="burger" type="button" aria-expanded="false" aria-controls="nav">Меню</button>
+  </div>
+</header>
+<main>
+
+<section class="hero"><div class="wrap">
+  <div class="top">
+    <div>
+      <p class="mono" style="margin-bottom:14px">ИП Сыч Г.Е. · очистка туалетных кабинок</p>
+      <h1>Чистота, которую <em>не видно</em>,<br>но замечают все</h1>
+    </div>
+    <div class="meta">
+      <div><b>Московский</b><span>район Минска, выезд по городу</span></div>
+      <div><b>5 зон</b><span>полный регламент обработки</span></div>
+      <div><b>по графику</b><span>или разовый выезд под задачу</span></div>
+    </div>
+  </div>
+  <figure class="fx">
+    <img src="assets/hero.jpg" alt="Чистые кабинки на площадке после обслуживания">
+    <figcaption>Иллюстрация: как выглядит кабина после полного регламента</figcaption>
+  </figure>
+  <div class="stat-row">
+    <div><b>5</b><span>зон обработки в каждой кабине</span></div>
+    <div><b>2</b><span>этапа химии: налёт и мочевой камень</span></div>
+    <div><b>3</b><span>шага: мойка, дезинфекция, нейтрализация</span></div>
+    <div><b>журнал</b><span>отметка о каждом выезде</span></div>
+  </div>
+</div></section>
+
+<section class="sec" id="map"><div class="wrap">
+  <div class="shead">
+    <div><p class="mono" style="margin-bottom:12px">Карта обработки</p><h2>Пять зон, за которые мы отвечаем</h2></div>
+    <p>Нажмите на зону кабины: покажем, что именно с ней делают, каким составом и сколько минут это занимает. Так видно, из чего складывается выезд.</p>
+  </div>
+  <div class="mapwrap">
+    <div class="cabin fx" id="cabinMap">
+      <svg viewBox="0 0 420 360" role="group" aria-label="Схема кабинки: пять зон обработки">
+        <defs>
+          <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#EAF4EF"/><stop offset="1" stop-color="#F9FBFA"/>
+          </linearGradient>
+        </defs>
+        <rect x="0" y="0" width="420" height="360" fill="url(#sky)"/>
+        <rect x="0" y="300" width="420" height="60" fill="#E3E9E6"/>
+        <!-- крыша -->
+        <rect x="60" y="58" width="300" height="16" fill="#121A17" opacity=".85"/>
+        <rect x="52" y="50" width="316" height="10" fill="#1C7350"/>
+        <!-- корпус: стены -->
+        <rect class="zone" data-zone="walls" tabindex="0" role="button" aria-pressed="false"
+              x="60" y="74" width="300" height="226" fill="#FFFFFF" stroke="#CFDAD4" stroke-width="2"/>
+        <!-- дверь -->
+        <rect class="zone" data-zone="door" tabindex="0" role="button" aria-pressed="false"
+              x="88" y="96" width="120" height="186" fill="#F6F8F7" stroke="#CFDAD4" stroke-width="2" rx="2"/>
+        <circle cx="192" cy="190" r="6" fill="#2E9E6B"/>
+        <!-- пол -->
+        <rect class="zone" data-zone="floor" tabindex="0" role="button" aria-pressed="false"
+              x="212" y="240" width="136" height="42" fill="#F6F8F7" stroke="#CFDAD4" stroke-width="2"/>
+        <text x="280" y="266" font-family="Instrument Sans,Arial" font-size="11" fill="#465350" text-anchor="middle">пол</text>
+        <!-- сиденье и бачок -->
+        <rect class="zone" data-zone="seat" tabindex="0" role="button" aria-pressed="false"
+              x="212" y="176" width="136" height="52" fill="#FFFFFF" stroke="#CFDAD4" stroke-width="2" rx="3"/>
+        <rect x="240" y="186" width="80" height="10" fill="#E3F2EA" stroke="#2E9E6B" stroke-width="1.5"/>
+        <text x="280" y="216" font-family="Instrument Sans,Arial" font-size="11" fill="#465350" text-anchor="middle">сиденье</text>
+        <!-- вентиляция -->
+        <rect class="zone" data-zone="air" tabindex="0" role="button" aria-pressed="false"
+              x="220" y="96" width="120" height="58" fill="#FFFFFF" stroke="#CFDAD4" stroke-width="2" rx="3"/>
+        <path d="M232 112 H328 M232 122 H328 M232 132 H328" stroke="#2E9E6B" stroke-width="1.6" opacity=".7"/>
+        <text x="280" y="148" font-family="Instrument Sans,Arial" font-size="11" fill="#465350" text-anchor="middle">воздух</text>
+        <!-- основание -->
+        <rect x="52" y="288" width="316" height="14" fill="#121A17" opacity=".8"/>
+      </svg>
+    </div>
+    <div class="mappanel fx">
+      <div class="counter" id="zoneCounter"><b>1</b><span>из 5 зон разобрали</span></div>
+      <div class="zoneinfo" id="zoneInfo"></div>
+      <div class="zonelist" id="zoneList" aria-label="Зоны обработки"></div>
+    </div>
+  </div>
+</div></section>
+
+<section class="sec white"><div class="wrap">
+  <div class="shead">
+    <div><p class="mono" style="margin-bottom:12px">Что входит</p><h2>Один выезд — четыре обязательных шага</h2></div>
+    <p>Мы не «протираем на скорую руку»: каждый шаг нужен, чтобы кабина оставалась чистой не час, а до следующего выезда.</p>
+  </div>
+  <div class="mlist">
+    <div class="row"><div class="n">01</div>
+      <div><h3>Мойка поверхностей</h3><p>Пол, стены, дверь, сиденье: снимаем налёт и загрязнения аппаратом под давлением.</p></div>
+      <div class="side">Начинаем с верха и идём вниз, чтобы грязь не оставалась на уже вымытом.</div></div>
+    <div class="row"><div class="n">02</div>
+      <div><h3>Дезинфекция</h3><p>Обрабатываем контактные поверхности и внутренний объём средством с выдержкой по времени.</p></div>
+      <div class="side">Средство должно сработать, а не быть смытым сразу: выдерживаем экспозицию.</div></div>
+    <div class="row"><div class="n">03</div>
+      <div><h3>Устранение запаха</h3><p>Нейтрализатор, а не отдушка: убираем причину, а не маскируем её на час.</p></div>
+      <div class="side">Отдушка + грязь = резкий запах. Поэтому сначала мойка, потом нейтрализация.</div></div>
+    <div class="row"><div class="n">04</div>
+      <div><h3>Расходники и осмотр</h3><p>Бумага, средства, проверка замка, смыва и трапа. Отметка о выезде в журнале.</p></div>
+      <div class="side">Сломанный замок или забитый трап видно только при осмотре, а не в списке заявок.</div></div>
+  </div>
+</div></section>
+
+<section class="sec"><div class="wrap">
+  <div class="shead">
+    <div><p class="mono" style="margin-bottom:12px">Объекты</p><h2>Где кабины стоят дольше всего</h2></div>
+    <p>На стройке, на празднике и в парке кабина пачкается по-разному. Поэтому график и набор работ подбираем под объект.</p>
+  </div>
+  <div class="tiles">
+    <article class="tile"><span class="tag">Стройплощадка</span><h3>Ровная нагрузка, месяцы работы</h3><p>Бригада ходит каждый день, поэтому важен регулярный выезд, а не героические уборки раз в сезон.</p><a class="btn ghost" href="objects.html" style="margin-top:auto">Подробнее</a></article>
+    <article class="tile"><span class="tag">Мероприятие</span><h3>Пик за пару часов</h3><p>До открытия — полный регламент, в течение дня — контроль, если поток людей большой.</p><a class="btn ghost" href="objects.html" style="margin-top:auto">Подробнее</a></article>
+    <article class="tile"><span class="tag">Парк и рынок</span><h3>Всё на виду у города</h3><p>Летом запах появляется быстрее, поэтому выезды чаще, а обработка включает зону вокруг кабины.</p><a class="btn ghost" href="objects.html" style="margin-top:auto">Подробнее</a></article>
+  </div>
+</div></section>
+
+<section class="cta-band"><div class="wrap in">
+  <div><h2>Расскажите про объект — предложим график</h2><p>Сколько кабин, где стоят и как часто нужен выезд. Этого достаточно, чтобы назвать порядок работы.</p></div>
+  <div><a class="btn" href="contacts.html#req">Оставить заявку</a></div>
+</div></section>
+</main>
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="grid">
+      <div>
+        <h4>Услуги</h4>
+        <a href="uslugi.html">Очистка кабинок</a>
+        <a href="uslugi.html">Дезинфекция</a>
+        <a href="uslugi.html">Устранение запаха</a>
+        <a href="uslugi.html">Расходники</a>
+      </div>
+      <div>
+        <h4>Страницы</h4>
+        <a href="index.html">Главная</a>
+        <a href="process.html">Как проходит</a>
+        <a href="objects.html">Объекты</a>
+        <a href="about.html">О нас</a>
+      </div>
+      <div>
+        <h4>Где работаем</h4>
+        <a href="contacts.html">Минск, Московский район</a>
+        <a href="objects.html">Стройплощадки и склады</a>
+        <a href="objects.html">Мероприятия и парки</a>
+      </div>
+      <div>
+        <h4>Связь</h4>
+        <a href="contacts.html#req">Оставить заявку</a>
+        <a href="about.html">ИП Сыч Г.Е.</a>
+        <a href="contacts.html">Реквизиты и район</a>
+      </div>
+    </div>
+    <div class="bottom">
+      <span>© <span id="yr">2026</span> ИП Сыч Г.Е. · обслуживание туалетных кабинок · Минск</span>
+      <span>Макет: SiteFast.by</span>
+    </div>
+  </div>
+</footer>
+  </div>
+</footer>
+<a class="wm" href="https://sitefast.by" target="_blank" rel="noopener">Макет: SiteFast.by</a>
+<script src="assets/site.js"></script>
+</body>
+</html>
